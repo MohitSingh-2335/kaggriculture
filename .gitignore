@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Kaggle credentials — NEVER commit these
+kaggle.json
+.kaggle/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env / secrets
+.env
+*.log
+
+# Local competition data and generated analysis
+data/*
+!data/.gitkeep
+notebooks/*
+!notebooks/.gitkeep
+scratch/
+policy_bundle_output/
+submission*.tar.gz
+
+# Generated reports and local agent handoff files
+AGENT_LOG.md
+DOCS_ALL.md
+NOTEBOOKS_ALL.md
+gemini/
+
+# Local caches and generated Python files
+__pycache__/
+**/__pycache__/
+*.py[cod]
